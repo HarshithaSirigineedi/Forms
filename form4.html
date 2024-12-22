@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form4</title>
+    <style>
+        input[type="Submit"]
+        {
+            background-color:green;
+          color:white;
+        }
+        input[type="reset"]
+        {
+            background-color:red;
+            color:white;
+        }
+    </style>
+</head>
+<body style="background-color:silver">
+    <center>
+        <caption>
+            <h1>Sign Up</h1>
+        </caption>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label style="margin-right:80px;"><b>First Name</b></label>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right:82px;"><b>Last Name</b></label>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right:66px;"><b>Screen Name</b></label>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right:61px;"><b>Date Of Birth</b></label>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right:100px;"><b>Gender</b></label>
+                    <input type="radio" id="male" name="gender" value="male" required>Male
+                    <input type="radio" id="Female" name="gender" value="Female" required>Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right:99px;"><b>Country</b></label>
+                    <select>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>Uk</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right:108px;"><b>E-mail</b></label>
+                    <input type="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right:111px;"><b>Phone</b></label>
+                    <input type="tel" id="phone" name="phone" required maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right:87px;"><b>Password</b></label>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label style="margin-right:25px;"><b>Confirm Password</b></label>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="agree"></label>
+                    <input type="checkbox" id="agree" name="agree" requiredstyle="margin-left:1px;">I agree to the terms of Use
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Submit">
+                    <input type="reset" value="Cancel">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
